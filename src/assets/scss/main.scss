@@ -1,0 +1,87 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900'); */
+@import "bootstrap/dist/css/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css");
+
+.root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #003B76;
+  min-height: 100vh;
+  font-family: 'Myriad Pro', sans-serif;
+  overflow-x: hidden;
+}
+
+/* scrollbar width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+
+/* scrollbar Track */
+::-webkit-scrollbar-track {
+  background: #003C72;
+}
+
+/* scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background: #198754;
+}
+
+/* scrollbar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  opacity: 0.8;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+p {
+  margin: 0
+}
+
+.backdrop-no-blur {
+  background-color: #ffffff !important;
+}
+
+.backdrop-blur {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.page-wrapper {
+  background: $color-bg-body;
+}
+
+.page-body {
+  background: $color-bg-body;
+  color: $color-body-1;
+  height: 100%;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(5px);
+}
+
+footer {
+  background-color: #003C72;
+}
+
+.topic-background {
+  background-color: #77B1EB;
+}
